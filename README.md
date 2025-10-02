@@ -8,7 +8,7 @@ express HTML in Nushell. Building HTML in code gives us power to modularize
 generation. Say all our documents use [PicoCSS](https://picocss.com), then it's easy 
 to write the 'envelope' once and then actual documents can be made built on this;
 
-```nu
+```nushell
 use /path/to/html.nu *
 
 def pico-main [...rest] {
@@ -40,7 +40,7 @@ def pico-main [...rest] {
 ```
 ## Expanding arbitrary Data
 
-```nu
+```nushell
 use /path/to/expand.nu *
 
 {
